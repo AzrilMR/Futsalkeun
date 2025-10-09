@@ -46,10 +46,6 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
-        <div className="absolute inset-x-0 bottom-0 h-16 ... p-3 bg-black">
-        <hr />
-        <footer className="text-center text-xs text-white">@2025FUTSALKEUN</footer>
-        </div>
       </body>
     </html>
   );

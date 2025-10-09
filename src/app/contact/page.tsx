@@ -14,7 +14,7 @@ export default function Contact() {
                 />
             </div>
 
-            <div className="absolute inset-y-60 left-30 w-20..">
+            <div className="absolute inset-y-60 left-35 w-20..">
 
                 <a href="https://www.instagram.com/azrilllmuhammad?igsh=dXZhdXhjZmZpNXh0">
                 <h3 className="mb-5">@futsalkeun_id</h3>
@@ -33,7 +33,7 @@ export default function Contact() {
                 </a>
             </div>
 
-            <div className="absolute inset-y-60 left-20 w-20..">
+            <div className="absolute inset-y-60 left-25 w-20..">
 
                 <Image  className="mb-3"
                 src = "/instagram.png"
