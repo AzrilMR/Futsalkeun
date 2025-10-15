@@ -15,7 +15,8 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row justify-center flex-wrap">
-                       <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                    <Link href="/detail_ortuslyberte">
+                       <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/catalystliberte_v4_in_navyaqua.png"
                                alt="sepatu1"
@@ -26,7 +27,10 @@ export default function Home() {
                            <p className="text-xs">Navy</p>
                            <p>RP.649,000.00</p>
                        </div>
-                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                    </Link>
+
+                    <Link href="/detail_ortusjogorampage">
+                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/jogosala rampage v3 biru.png"
                                alt="sepatu2"
@@ -37,7 +41,10 @@ export default function Home() {
                            <p className="text-xs">Biru</p>
                            <p>RP.499,000.00</p>
                        </div>
-                       <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                    </Link>
+
+                    <Link href="/detail_ortusjogosala">
+                       <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/JOGOSALA_VANQUISH_GREY.png"
                                alt="sepatu3"
@@ -48,7 +55,10 @@ export default function Home() {
                            <p className="text-xs">Abu-abu</p>
                            <p>RP.399,000.00</p>
                        </div>
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                    </Link>
+
+                    <Link href="/detail_ortuslegion">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/catalyst legion v5 aqua.png"
                                alt="sepatu4"
@@ -59,8 +69,9 @@ export default function Home() {
                            <p className="text-xs">Aqua</p>
                            <p>RP.299,550.00</p>
                        </div>
+                       </Link>
 
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/ORTUS_SIRIUS_IN_.png"
                                alt="sepatu4"
@@ -72,7 +83,7 @@ export default function Home() {
                            <p>RP.299,550.00</p>
                        </div>
 
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/specs viper hitam.png"
                                alt="sepatu4"
@@ -84,7 +95,7 @@ export default function Home() {
                            <p>RP.299,550.00</p>
                        </div>
 
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/specs ardent in double putih.png"
                                alt="sepatu4"
@@ -96,7 +107,7 @@ export default function Home() {
                            <p>RP.299,550.00</p>
                        </div>
 
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/SPECS_ESSORER_IN-DESSERT_FLOWER.png"
                                alt="sepatu4"
@@ -108,7 +119,7 @@ export default function Home() {
                            <p>RP.299,550.00</p>
                        </div>
                        
-                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+                       <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/SPECS_REACTO_DEVIANT_PRO_IN-.png"
                                alt="sepatu4"

@@ -29,13 +29,13 @@ export default function RootLayout({
       <body
         className={`${fontsGraduate.variable} ${fontsInter.variable} antialiased`}
       >
-        <header className="bg-[#204B57] p-4 text-white"><Link href="/"><div className="text-2xl">FUTSALKEUN</div></Link>
+        <header className="bg-[#204B57] p-4 text-white"><Link href="/"><div className="text-3xl">FUTSALKEUN</div></Link>
           <nav className="absolute top-0 right-60 size-16 ... p-3 m-2 flex items-center gap-x-5">
             <Link href="/">HOME</Link>
 
             <div className="relative group"><Link href="#">FUTSAL</Link>
-              <div className="absolute hidden group-hover:block bg-[#D9D9D9] z-10 text-center text-black">
-                <div className="hover:bg-gray-400 px-4 py-2"><Link href="home">Sepatu</Link></div>
+              <div className="absolute hidden group-hover:block group-focus-within:block bg-[#D9D9D9] z-10 text-center text-black">
+                <div className="hover:bg-gray-400 px-4 py-2"><Link href="sepatu">Sepatu</Link></div>
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="jersey">Jersey</Link></div>
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="aksesoris">Aksesoris</Link></div>
               </div>

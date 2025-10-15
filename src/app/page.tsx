@@ -16,8 +16,8 @@ export default function Home() {
             <h1 className="m-8 p-5 bg-[#204B57] w text-white text-4xl rounded-4xl text-center">Rekomendasi Dari Kami</h1>
 
             <div className="flex flex-row justify-center flex-wrap">
-            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
-                <Image className="rotate-14 m-5" 
+            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
+                <Image className="rotate-14 m-5 " 
                     src="/catalystliberte_v4_in_navyaqua.png"
                     alt="sepatu1"
                     width={150}
@@ -74,7 +74,7 @@ export default function Home() {
            
           <div className="flex flex-row justify-center flex-wrap">
             <Link href="/detail_jerseymilan">
-            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="m-5" 
                     src="/Ac_milan.png"
                     alt="jersey"
@@ -85,7 +85,9 @@ export default function Home() {
                 <p>RP.799,000.00</p>
             </div>
             </Link>
-            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            
+            <Link href="/detail_jerseycity">
+            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="m-7" 
                     src="/city away.jpg"
                     alt="jersey"
@@ -95,7 +97,10 @@ export default function Home() {
                 <h3 className="mb-3">MANCHESTER CITY AWAY 25/26</h3>
                 <p>RP.650,000.00</p>
             </div>
-           <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            </Link>
+
+            <Link href="/detail_jerseymadrid">
+           <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="m-5" 
                     src="/Rma_away.png"
                     alt="jersey"
@@ -105,7 +110,10 @@ export default function Home() {
                 <h3 className="mb-3">REAL MADRID AWAY JERSEY 25/26</h3>
                 <p>RP.699,999.99</p>
             </div>
-           <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            </Link>
+
+            <Link href="/detail_jerseydortmund">
+           <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="m-5" 
                     src="/dortmund_home.png"
                     alt="jersey"
@@ -115,6 +123,8 @@ export default function Home() {
                 <h3 className="mb-3">BORUSSIA DORTMUND HOME JERSEY 25/26</h3>
                 <p>RP.540,000.00</p>
             </div>
+            </Link>
+
             </div>
 
         </div>
