@@ -71,6 +71,7 @@ export default function Home() {
                        </div>
                        </Link>
 
+                       <Link href="/detail_ortussirius">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/ORTUS_SIRIUS_IN_.png"
@@ -82,7 +83,9 @@ export default function Home() {
                            <p className="text-xs">Hitam</p>
                            <p>RP.299,550.00</p>
                        </div>
+                       </Link>
 
+                       <Link href="/detail_specsviper">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/specs viper hitam.png"
@@ -94,7 +97,10 @@ export default function Home() {
                            <p className="text-xs">Hitam</p>
                            <p>RP.299,550.00</p>
                        </div>
+                       </Link>
 
+
+                       <Link href="/detail_specsardent">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/specs ardent in double putih.png"
@@ -106,7 +112,9 @@ export default function Home() {
                            <p className="text-xs">Putih</p>
                            <p>RP.299,550.00</p>
                        </div>
+                         </Link>
 
+                        <Link href="/detail_specsessorer">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/SPECS_ESSORER_IN-DESSERT_FLOWER.png"
@@ -118,7 +126,9 @@ export default function Home() {
                            <p className="text-xs">Pink</p>
                            <p>RP.299,550.00</p>
                        </div>
-                       
+                       </Link>
+
+                        <Link href="/detail_specsreacto">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
                                src="/SPECS_REACTO_DEVIANT_PRO_IN-.png"
@@ -130,6 +140,7 @@ export default function Home() {
                            <p className="text-xs">Aqua</p>
                            <p>RP.299,550.00</p>
                        </div>
+                        </Link>
 
                        </div>
 
