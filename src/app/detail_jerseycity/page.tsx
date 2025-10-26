@@ -17,7 +17,7 @@ export default function Detail(){
             
             <h1 className="absolute top-30 left-165 text-4xl font-bold">MANCHESTER CITY AWAY JERSEY 25/26</h1>
             <h2 className="absolute top-40 left-165 text-2xl mt-3 mb-3">UKURAN</h2>
-            <p className="absolute top-50 left-165 text-xl">S  M  L  XL  XXL</p>
+            <p className="absolute top-50 left-165 text-xl">S-M-L-XL-XXL</p>
             <p className="absolute top-60 left-165 text-lg text-justify w-[700] bg-[#FAFAFA] opacity-75 p-7 rounded-xl inset-shadow-sm">Tampil mewah di lapangan dengan jersey away Manchester City. 
             Desain berkerah memberikan sentuhan retro dengan warna hitam klasik akan membawa Anda merasakan bagaimana menjadi penguasa liga Inggris.</p>
             <h2 className="absolute top-135 left-165 text-3xl">RP. 650,000.00</h2>

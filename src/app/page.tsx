@@ -5,7 +5,7 @@ export default function Home() {
 
     return(
         <div>
-            <div className="relative h-65">
+            <div className="relative h-80">
             <Image 
                 src="/home.jpg"
                 alt="Home"              
@@ -13,12 +13,14 @@ export default function Home() {
                 className="object-cover"
             />
             </div>
-            <h1 className="m-8 p-5 bg-[#204B57] w text-white text-4xl rounded-4xl text-center">Rekomendasi Dari Kami</h1>
+            <h1 className="m-8 p-5 bg-[#204B57] w text-white text-4xl rounded text-center">Rekomendasi Dari Kami</h1>
 
             <div className="flex flex-row justify-center flex-wrap">
+
+            <Link href="/detail_ortuslyberte">
             <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="rotate-14 m-5 " 
-                    src="/catalystliberte_v4_in_navyaqua.png"
+                    src="/catalystliberte_v4_in.png"
                     alt="sepatu1"
                     width={150}
                     height={100}
@@ -27,9 +29,12 @@ export default function Home() {
                 <p className="text-xs">Navy</p>
                 <p>RP.649,000.00</p>
             </div>
-             <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            </Link>
+
+            <Link href="/detail_specsreacto">
+             <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="rotate-14 m-5" 
-                    src="/SPECS_REACTO_DEVIANT_PRO_IN-.png"
+                    src="/SPECS_REACTO_DEVIANT_PRO_IN.png"
                     alt="sepatu2"
                     width={150}
                     height={100}
@@ -38,9 +43,12 @@ export default function Home() {
                 <p className="text-xs">Putih</p>
                 <p>RP.499,000.00</p>
             </div>
-            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            </Link>
+    
+            <Link href="/detail_ortusjogosala">
+            <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="rotate-14 m-5" 
-                    src="/JOGOSALA_VANQUISH_GREY.png"
+                    src="/JOGOSALA_VANQUISh_GREY.png"
                     alt="sepatu3"
                     width={150}
                     height={100}
@@ -49,9 +57,12 @@ export default function Home() {
                 <p className="text-xs">Abu-abu</p>
                 <p>RP.399,000.00</p>
             </div>
-            <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl">
+            </Link>
+
+            <Link href="/detail_specsessorer">
+            <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="rotate-14 m-5" 
-                    src="/SPECS_ESSORER_IN-DESSERT_FLOWER.png"
+                    src="/SPECS_ESSORER_INDESSERT_FLOWER.png"
                     alt="sepatu4"
                     width={150}
                     height={100}
@@ -60,6 +71,8 @@ export default function Home() {
                 <p className="text-xs">Pink</p>
                 <p>RP.299,550.00</p>
             </div>
+            </Link>
+
             </div>
 
              <div className="relative h-70 mt-20 mb-20">
@@ -76,7 +89,7 @@ export default function Home() {
             <Link href="/detail_jerseymilan">
             <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                 <Image className="m-5" 
-                    src="/Ac_milan.png"
+                    src="/Ac_Milan.png"
                     alt="jersey"
                     width={150}
                     height={100}

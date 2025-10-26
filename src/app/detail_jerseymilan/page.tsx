@@ -25,7 +25,7 @@ export default function Detail(){
             <a href="https://wa.me/62895397432051"><button className="absolute top-145 left-165 text-2xl bg-[#204B57] text-white p-3 rounded-lg mt-3 hover:bg-black-200 cursor-pointer">BELI</button></a>
             <div className="bg-[#FAFAFA] m-8 p-5 shadow-lg rounded-xl w-[600] h-[600] flex">
                 <Image
-            src="/Ac_milan.png"
+            src="/Ac_Milan.png"
             alt="Jersey Milan"
             width={500}
             height={500}

@@ -17,7 +17,7 @@ export default function Jersey() {
                                 <Link href="/detail_jerseymilan">
                                        <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                                            <Image className="m-5" 
-                                               src="/Ac_milan.png"
+                                               src="/Ac_Milan.png"
                                                alt="jersey"
                                                width={150}
                                                height={100}

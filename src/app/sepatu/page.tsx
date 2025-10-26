@@ -18,7 +18,7 @@ export default function Home() {
                     <Link href="/detail_ortuslyberte">
                        <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
-                               src="/catalystliberte_v4_in_navyaqua.png"
+                               src="/catalystliberte_v4_in.png"
                                alt="sepatu1"
                                width={150}
                                height={100}
@@ -46,7 +46,7 @@ export default function Home() {
                     <Link href="/detail_ortusjogosala">
                        <div className="m-8 p-5 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
-                               src="/JOGOSALA_VANQUISH_GREY.png"
+                               src="/JOGOSALA_VANQUISh_GREY.png"
                                alt="sepatu3"
                                width={150}
                                height={100}
@@ -117,7 +117,7 @@ export default function Home() {
                         <Link href="/detail_specsessorer">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
-                               src="/SPECS_ESSORER_IN-DESSERT_FLOWER.png"
+                               src="/SPECS_ESSORER_INDESSERT_FLOWER.png"
                                alt="sepatu4"
                                width={150}
                                height={100}
@@ -131,7 +131,7 @@ export default function Home() {
                         <Link href="/detail_specsreacto">
                        <div className="m-8 p-6 bg-[#FAFAFA] shadow-lg w-[250] h-[310] rounded-xl hover:bg-gray-200">
                            <Image className="rotate-14 m-5" 
-                               src="/SPECS_REACTO_DEVIANT_PRO_IN-.png"
+                               src="/SPECS_REACTO_DEVIANT_PRO_IN.png"
                                alt="sepatu4"
                                width={150}
                                height={100}

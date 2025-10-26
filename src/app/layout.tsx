@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Graduate, Inter } from "next/font/google";
+import { Graduate } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image"
 
 const fontsGraduate = Graduate({
   variable: "--font-graduate",
   subsets: ["latin"],
   weight: "400",
-});
-
-const fontsInter = Inter({
-  variable: "--font-Inter",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -27,14 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fontsGraduate.variable} ${fontsInter.variable} antialiased`}
+        className={`${fontsGraduate.variable} antialiased`}
       >
-        <header className="bg-[#204B57] p-4 text-white"><Link href="/"><div className="text-3xl">FUTSALKEUN</div></Link>
-          <nav className="absolute top-0 right-60 size-16 ... p-3 m-2 flex items-center gap-x-5">
-            <Link href="/">HOME</Link>
+        <header className="bg-[#204B57] p-4 text-white"><Link href="/"><div className="text-3xl hover:bg-black-200">FUTSALKEUN</div></Link>
+          <nav className="absolute top-0 right-60 size-16 p-3 m-2 flex items-center gap-x-5">
+            <Link href="/">HOME</Link>  
 
             <div className="relative group"><Link href="#">FUTSAL</Link>
-              <div className="absolute hidden group-hover:block group-focus-within:block bg-[#D9D9D9] z-10 text-center text-black">
+              <div className="absolute hidden group-hover:block group-focus-within:block bg-[#D9D9D9] z-10 text-center text-black rounded">
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="sepatu">Sepatu</Link></div>
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="jersey">Jersey</Link></div>
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="aksesoris">Aksesoris</Link></div>
@@ -46,6 +42,70 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
+        
+        <footer className="bg-[#204B57] text-white"><hr className="mt-20"/>
+          <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between">
+            <div className="text-center md:text-left">
+              <Link href="/">
+                <div className="text-2xl font-semibold">FUTSALKEUN</div>
+              </Link>
+            </div>
+
+            <nav className="mt-4 md:mt-0 flex gap-4 text-sm items-center">
+              <Link href="/" className="hover:underline">HOME</Link>
+              <Link href="sepatu" className="hover:underline">SEPATU</Link>
+              <Link href="jersey" className="hover:underline">JERSEY</Link>
+              <Link href="aksesoris" className="hover:underline">AKSESORIS</Link>
+              <Link href="/about" className="hover:underline">ABOUT</Link>
+              <Link href="/contact" className="hover:underline">CONTACT</Link>
+            </nav>
+
+            <div className="mt-4 md:mt-0 flex gap-4 text-sm items-center">
+              <a href="https://wa.me/62895397432051">
+              <Image className="hover:bg-white-700"
+              src="/whatsapp-line.svg"
+              alt="WhatsApp"
+              width={30}
+              height={30} 
+              />
+              </a>
+
+              <a href="https://www.facebook.com/share/18EVGDr9br">
+              <Image
+              src="/facebook-circle-line.svg"
+              alt="facebook"
+              width={30}
+              height={30} 
+              />
+              </a>     
+
+              <a href="https://www.instagram.com/azrilllmuhammad?igsh=dXZhdXhjZmZpNXh0">
+              <Image
+              src="/instagram-line.svg"
+              alt="instagram"
+              width={30}
+              height={30} 
+              />
+              </a>
+
+              <a href="mailto:azril3121@email.com">
+              <Image
+              src="/mail-line.svg"
+              alt="email"
+              width={30}
+              height={30} 
+              />
+              </a>        
+            </div>
+
+          </div>
+
+          <div className="border-t border-white/20 mt-4">
+            <div className="max-w-7xl mx-auto px-6 py-4 text-center text-sm text-white/80">
+              © {new Date().getFullYear()} FUTSALKEUN. All rights reserved.
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
