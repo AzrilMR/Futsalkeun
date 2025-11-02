@@ -25,8 +25,11 @@ export default function RootLayout({
       <body
         className={`${fontsGraduate.variable} antialiased`}
       >
-        <header className="bg-[#204B57] p-4 text-white"><Link href="/"><div className="text-3xl hover:bg-black-200">FUTSALKEUN</div></Link>
-          <nav className="absolute top-0 right-60 size-16 p-3 m-2 flex items-center gap-x-5">
+        <header className="bg-[#204B57] p-4 text-white">
+          <Link href="/">
+          <div className="text-2xl px-3x">FUTSALKEUN</div>
+          </Link>
+          <nav className="absolute top-0 right-57 p-4 m-2 size-16 flex gap-6 text-sm">
             <Link href="/">HOME</Link>  
 
             <div className="relative group"><Link href="#">FUTSAL</Link>

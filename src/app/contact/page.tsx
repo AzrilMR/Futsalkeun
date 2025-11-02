@@ -3,7 +3,11 @@ import Image from "next/image";
 export default function Contact() {
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
+            
             <h1 className="text-2xl font-bold m-10 text-center">Hubungi kami</h1>
+
+            <div className="flex flex-row justify beetwen">
+            
             <div className="flex flex-col gap-4">
             <p className="text-xl">Menerima layanan daring mulai dari pukul 08.00-17.00.</p>
             
@@ -42,8 +46,8 @@ export default function Contact() {
                 height = {30}
                 />
                 <a href="mailto:azril3121@email.com">
-                <h3 className="hover:underline">futsalkeun1428@gmail.com</h3>
-                </a>
+                <h3 className="hover:underline">futsalkeun1428@gmail.com</h3>               
+                 </a>
                 </div>
 
                 <div className="flex flex-row gap-4">
@@ -63,7 +67,7 @@ export default function Contact() {
             <h2>Kunjungi Juga Toko Kami</h2>
             <h3>Lokasi:</h3>
 
-                <div className="flex flex-row gap-4 mt-2">
+                <div className="flex flex-row gap-2 mt-2">
                 <Image 
                 src = "/map-pin-line.svg"
                 alt = "map"
@@ -74,8 +78,16 @@ export default function Contact() {
                 </div>
 
                 </div>
-
             </div>
+
+            <Image className="rounded mx-auto mb-10"
+            src="/images.jpeg"
+            alt="Contact"
+            width={500}
+            height={500}
+            />
+        </div>
+        
         </div>
     );
 };
