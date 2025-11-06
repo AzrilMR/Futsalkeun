@@ -26,12 +26,14 @@ export default function RootLayout({
         className={`${fontsGraduate.variable} antialiased`}
       >
         <header className="bg-[#204B57] p-4 text-white">
+          <div className="flex flex-col gap-4 text-center md:flex-row justify-between">
           <Link href="/">
           <div className="text-2xl px-3x">FUTSALKEUN</div>
           </Link>
-          <nav className="absolute top-0 right-57 p-4 m-2 size-16 flex gap-6 text-sm">
+          <div className="mt-0 md:mt-2">
+          <nav className="flex flex-row gap-6">
             <Link href="/">HOME</Link>  
-
+  
             <div className="relative group"><Link href="#">FUTSAL</Link>
               <div className="absolute hidden group-hover:block group-focus-within:block bg-[#D9D9D9] z-10 text-center text-black rounded">
                 <div className="hover:bg-gray-400 px-4 py-2"><Link href="sepatu">Sepatu</Link></div>
@@ -43,35 +45,32 @@ export default function RootLayout({
             <Link href="/about">ABOUT</Link>
             <Link href="/contact">CONTACT</Link>
           </nav>
+          </div>
+          </div>
         </header>
         {children}
         
         <footer className="bg-[#204B57] text-white"><hr className="mt-20"/>
-          <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between">
-            <div className="text-center md:text-left">
-              <Link href="/">
-                <div className="text-2xl font-semibold">FUTSALKEUN</div>
-              </Link>
+          <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between">
+            <div className="">
+              <h1 className="text-xl mb-3 font-semibold">FUTSALKEUN</h1>
+              <p className="text-sm text-justify w-[300]">Tempat terbaik untuk menemukan perlengkapan futsal</p>
             </div>
-
-            <nav className="mt-4 md:mt-0 flex gap-4 text-sm items-center">
-              <Link href="/" className="hover:underline">HOME</Link>
+            <div className="mt-4 md:mt-0">
+              <h1 className="text-xl font-semibold">Jelajahi</h1>
+              <div className="flex flex-row flex-nowrap gap-3 md:flex-col text-center">
               <Link href="sepatu" className="hover:underline">SEPATU</Link>
               <Link href="jersey" className="hover:underline">JERSEY</Link>
               <Link href="aksesoris" className="hover:underline">AKSESORIS</Link>
               <Link href="/about" className="hover:underline">ABOUT</Link>
               <Link href="/contact" className="hover:underline">CONTACT</Link>
-            </nav>
+            </div>
+            </div>
 
-            <div className="mt-4 md:mt-0 flex gap-4 text-sm items-center">
-              <a href="https://wa.me/62895397432051">
-              <Image className="hover:bg-white-700"
-              src="/whatsapp-line.svg"
-              alt="WhatsApp"
-              width={30}
-              height={30} 
-              />
-              </a>
+            <div className="mt-4 md:mt-0">
+              <h1 className="text-xl font-semibold">Ikuti Sosial Media kami</h1>
+
+                <div className="flex flex-row gap-5 mt-4">
 
               <a href="https://www.facebook.com/share/18EVGDr9br">
               <Image
@@ -91,18 +90,39 @@ export default function RootLayout({
               />
               </a>
 
-              <a href="mailto:azril3121@email.com">
+              <a href="https://www.instagram.com/azrilllmuhammad?igsh=dXZhdXhjZmZpNXh0">
               <Image
-              src="/mail-line.svg"
-              alt="email"
+              src="/twitter-x-line.svg"
+              alt="instagram"
               width={30}
               height={30} 
               />
-              </a>        
+              </a>
+                </div>
+                
+                <div className="mt-4">
+                  <h1 className="text-xl font-semibold">Hubungi Kami</h1>
+                  <div className="flex flex-row gap-2 mt-2">
+                                  <h3>Email :</h3>
+                                  <a href="mailto:azril3121@email.com">
+                                  <h3 className="hover:underline">futsalkeun1428@gmail.com</h3>               
+                                   </a>
+                                  </div>
+                  
+                                  <div className="flex flex-row gap-2 mt-2">
+                                  <h3>WhatsApp :</h3>
+                                  <a href="https://wa.me/62895397432051">
+                                  <h3 className="hover:underline">+62 895-3974-32051</h3>
+                                  </a>
+                                  </div>
+                </div>
             </div>
-
+            
+            <div className="mt-4 md:mt-0">
+              <h1 className="text-xl font-semibold">Lokasi</h1>
+              <p>Jl.Terusan Pasir Koja</p>
+            </div>
           </div>
-
           <div className="border-t border-white/20 mt-4">
             <div className="max-w-7xl mx-auto px-6 py-4 text-center text-sm text-white/80">
               © {new Date().getFullYear()} FUTSALKEUN. All rights reserved.

@@ -3,10 +3,7 @@ import Link from "next/link";
 
 export default function Detail(){
     return(
-        <div>
-
-            <div className="flex flex-col gap-10 md:flex flex-row">
-           
+        <div className="flex flex-col gap-10 md:flex-row">
              <div className=" ">
                 <Image
             src="/Ac_milan.png"
@@ -42,7 +39,6 @@ export default function Detail(){
                 BELI
             </button>
             </a>
-            </div>
             </div>
             </div>
         </div>

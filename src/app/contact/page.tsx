@@ -6,17 +6,17 @@ export default function Contact() {
             
             <h1 className="text-2xl font-bold m-10 text-center">Hubungi kami</h1>
 
-            <div className="flex flex-row justify beetwen">
+            <div className="flex flex-col-reverse gap-5 md:flex-row justify beetwen">
             
             <div className="flex flex-col gap-4">
             <p className="text-xl">Menerima layanan daring mulai dari pukul 08.00-17.00.</p>
             
-            <h2>Ikuti Sosial Media Kami:</h2>
+            <h2>Hubungi Melalui Sosial Media Kami:</h2>
              <div className="flex flex-col gap-4 bg-[#FAFAFA] shadow-xl p-6 rounded-md w-[400]">
 
                 <div className=" flex flex-row gap-4">
                 <Image  
-                src = "/Instagram.png"
+                src = "/instagram-hitam-line.svg"
                 alt = "instagram"
                 width = {30}
                 height = {30}
@@ -28,8 +28,20 @@ export default function Contact() {
 
                 <div className=" flex flex-row gap-4">
                 <Image 
-                src = "/Facebook.png"
+                src = "/facebook-hitam-line.svg"
                 alt = "facebook"
+                width = {30}
+                height = {30}
+                />
+                <a href="https://www.facebook.com/share/18EVGDr9br">
+                <h3 className="hover:underline">Futsalkeun</h3>
+                </a>
+                </div>
+
+                <div className=" flex flex-row gap-4">
+                <Image 
+                src = "/twitter-x-hitam.svg"
+                alt = "twitter"
                 width = {30}
                 height = {30}
                 />
@@ -40,7 +52,7 @@ export default function Contact() {
 
                 <div className="flex flex-row gap-4">
                 <Image 
-                src = "/Mail.png"
+                src = "/mail-hitam.svg"
                 alt = "email"
                 width = {30}
                 height = {30}
@@ -52,7 +64,7 @@ export default function Contact() {
 
                 <div className="flex flex-row gap-4">
                 <Image 
-                src = "/Whatsapp.png"
+                src = "/whatsapp-hitam.svg"
                 alt = "whatsapp"
                 width = {30}
                 height = {30}
@@ -80,8 +92,8 @@ export default function Contact() {
                 </div>
             </div>
 
-            <Image className="rounded mx-auto mb-10"
-            src="/images.jpeg"
+            <Image className="rounded mx-auto mb-10 shadow-xl/30 "
+            src="/imagess.jpeg"
             alt="Contact"
             width={500}
             height={500}
